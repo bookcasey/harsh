@@ -26,7 +26,7 @@ Installing into your project:
 
 ### color
 
-The color of the gradients. Pass any color, a list of colors separated by spaces, or random for random colors.
+The color of the gradients. Pass any color, a list of colors separated by spaces, or `random` for random colors.
 
 ### background
 
@@ -34,7 +34,7 @@ Appends a color at the end of the gradients, pass `false` to omit.
 
 ### transparency
 
-Sets opacity of each gradient—use `0` for opaqre, `1` for completely transparent.
+Sets opacity of each gradient—use `0` for opaque, `1` for completely transparent.
 
 ### number-of-gradients
 
