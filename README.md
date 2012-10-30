@@ -1,6 +1,6 @@
 # Harsh
 
-Compass extension for randomly generated CSS3 gradients with harsh color stops
+Compass extension for randomly generated CSS3 gradients with harsh color stops—like magical diamonds.
 
 ## Installation
 
@@ -52,6 +52,27 @@ Boolean. When passing one color, saturates, desaturates, lightens, and darkens b
 
 Sets maximum percent colors will be changed by `nuance`. `0` will result in no change, `100` will result in a large change.
 
+## Examples
 
+    .random
+      +harsh()
+    
+    .background-color
+      +harsh(white, rgb(200,50,50), .95)
+    
+    .bright
+      +harsh(random, white, .05)
+    
+    .dull
+      +harsh($transparency: .95)
+    
+    .horizontal
+      +harsh($angle: top)
+    
+    .angled
+      +harsh($angle: -32deg)
+    
+    .nuance
+      +harsh(salmon, $nuance-strength: 50)
 
 
