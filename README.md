@@ -52,7 +52,7 @@ Boolean. When passing one color, saturates, desaturates, lightens, and darkens b
 
 Sets maximum percent colors will be changed by `nuance`. `0` will result in no change, `100` will result in a large change.
 
-## Examples
+## [Examples](http://www.bookcasey.com/harsh)
 
     .random
       +harsh()
