@@ -1,4 +1,4 @@
-# Harsh
+# [Harsh](http://www.bookcasey.com/harsh)
 
 Compass extension for randomly generated CSS3 gradients with harsh color stops—like magical diamonds.
 
@@ -40,7 +40,7 @@ Sets opacity of each gradient—use `0` for opaque, `1` for completely transpare
 
 ### number-of-gradients
 
-Sets number of gradients. Passing a list to `$color` overrides.
+Sets number of gradients. Passing a list of colors overrides.
 
 ### angle
 
@@ -73,6 +73,9 @@ Sets maximum percent colors will be changed by `nuance`. `0` will result in no c
     
     .dull
       +harsh($transparency: .95)
+
+    .specify-colors
+      +harsh(#FF0000 blue rgb(50,200,50))
     
     .horizontal
       +harsh($angle: top)
