@@ -2,6 +2,8 @@
 
 Compass extension for randomly generated CSS3 gradients with harsh color stops—like magical diamonds.
 
+<img src="http://i.imgur.com/bFpC1" width="300px" height="200px">
+
 ## Installation
 
 From the command line:
@@ -50,7 +52,13 @@ Boolean. When passing one color, saturates, desaturates, lightens, and darkens b
 
 ### nuance-strength
 
-Sets maximum percent colors will be changed by `nuance`. `0` will result in no change, `100` will result in a large change.
+Sets maximum percent colors will be changed by `nuance`. `0` will result in no change.
+
+<img src="http://i.imgur.com/2I95W" width="300px" height="200px">
+
+`100` will result in a large change.
+
+<img src="http://i.imgur.com/2R2cB" width="300px" height="200px">
 
 ## [Examples](http://www.bookcasey.com/harsh)
 
