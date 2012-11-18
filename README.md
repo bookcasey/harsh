@@ -4,6 +4,8 @@ Compass extension for randomly generated CSS3 gradients with harsh color stopsâ€
 
 <img src="http://i.imgur.com/bFpC1.png" width="300px" height="200px">
 
+You can find a bunch of examples on my [website](http://www.bookcasey.com/harsh)
+
 ## Installation
 
 From the command line:
