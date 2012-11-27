@@ -23,10 +23,10 @@ Installing into your project:
 ## Arguments
 
     # Mixin for backgrounds
-    +harsh($color, $background, $transparency, $number-of-gradients, $angle, $nuance, $nuance-strength) 
+    @include harsh($color, $background, $transparency, $number-of-gradients, $angle, $nuance, $nuance-strength) 
 
     # Mixin for text (only works in webkit)
-    +harsh-text($color, $transparency, $number-of-gradients, $angle, $nuance, $nuance-strength, $background) 
+    @include harsh-text($color, $transparency, $number-of-gradients, $angle, $nuance, $nuance-strength, $background) 
 
 ### color
 
@@ -65,27 +65,27 @@ Sets maximum percent colors will be changed by `nuance`. `0` will result in no c
 ## [Examples](http://www.bookcasey.com/harsh)
 
     .random
-      +harsh()
+      @include harsh()
     
     .background-color
-      +harsh(white, rgb(200,50,50), .95)
+      @include harsh(white, rgb(200,50,50), .95)
     
     .bright
-      +harsh(random, white, .05)
+      @include harsh(random, white, .05)
     
     .dull
-      +harsh($transparency: .95)
+      @include harsh($transparency: .95)
 
     .specify-colors
-      +harsh(#FF0000 blue rgb(50,200,50))
+      @include harsh(#FF0000 blue rgb(50,200,50))
     
     .horizontal
-      +harsh($angle: top)
+      @include harsh($angle: top)
     
     .angled
-      +harsh($angle: -32deg)
+      @include harsh($angle: -32deg)
     
     .nuance
-      +harsh(salmon, $nuance-strength: 50)
+      @include harsh(salmon, $nuance-strength: 50)
 
 
