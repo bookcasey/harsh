@@ -23,13 +23,13 @@
 @function gradient-builder($color, $transparency, $angle, $nuance, $nuance-strength)  
   $base-color: base-finder($color, $nuance, $nuance-strength)
   $transparent-color: fade-out($base-color, $transparency)
-  $colorstop: random()*1%
+  $colorstop: harsh_random()*1%
   $gradient: linear-gradient(angle-finder($angle), $transparent-color $colorstop, transparent $colorstop+.000001) //.001 to fix Compass bug/error where second color stop isn't larger than first
   @return $gradient
  
 @function base-finder($color, $nuance, $nuance-strength)
   @if $color == random
-    @return random(color)
+    @return harsh_random(color)
   @else if type-of($color) == color
     @if $nuance
       @return nuance($color, $nuance, $nuance-strength)
@@ -38,15 +38,15 @@
 
 @function angle-finder($angle) //http://dev.w3.org/csswg/css3-images/#linear-gradients
   @if $angle == random
-    @return  random()*1% random()*1%
+    @return  harsh_random()*1% harsh_random()*1%
   @if $angle == random-fixed
-    @return random()*1deg
+    @return harsh_random()*1deg
   @else 
     @return $angle
 
 @function nuance($color, $nuance, $nuance-strength)
   @if $nuance
-    @return saturate(desaturate(lighten(darken($color, random(number, $nuance-strength)*1% ),random(number, $nuance-strength)*1%),random(number, $nuance-strength)*1%),random(number, $nuance-strength)*1%)
+    @return saturate(desaturate(lighten(darken($color, harsh_random(number, $nuance-strength)*1% ),harsh_random(number, $nuance-strength)*1%),harsh_random(number, $nuance-strength)*1%),harsh_random(number, $nuance-strength)*1%)
   @else
     @return $color
 
