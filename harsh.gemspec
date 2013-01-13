@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   # Release Specific Information
-  s.version = "0.0.1"
-  s.date = "2012-10-29"
+  s.version = "1.0.0"
+  s.date = "2013-01-13"
 
   # Gem Details
   s.name = "harsh"
