@@ -62,6 +62,21 @@ Sets maximum percent colors will be changed by `nuance`. `0` will result in no c
 
 <img src="http://i.imgur.com/2R2cB.png" width="300px" height="200px">
 
+## Tips
+
+To make this a full-page background, make sure to set the `width` and `height` of `html` and `body` to `100%`:
+
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    
+    body {
+      @include harsh();
+      //background-attachment: fixed;
+      //background-repeat: no-repeat;
+    }
+
 ## [Examples](http://www.bookcasey.com/harsh)
 
     .random
