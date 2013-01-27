@@ -19,6 +19,8 @@ Installing into your project:
 
     # Import the extension into your sass or scss file
     @import "harsh"
+    
+Please note that if you are using a GUI app like [Compass.app](https://github.com/handlino/CompassApp/wiki/Use-Compass-Extensions) or [Codekit](http://incident57.com/codekit/help.php#help-compass) installing extensions may be done differently.
 
 ## Arguments
 
