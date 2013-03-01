@@ -10,7 +10,7 @@ You can find a bunch of examples on my [website](http://www.bookcasey.com/harsh)
 
 From the command line:
 
-    sudo gem install harsh
+    (sudo) gem install harsh
 
 Installing into your project:
 
