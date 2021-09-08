@@ -1,10 +1,12 @@
-# [Harsh](http://www.bookcasey.com/harsh)
+# [Harsh](https://bookcasey.github.io/harsh)
+
+Deprecated: Harsh (like Compass) is no longer supported.
 
 Compass extension for randomly generated CSS3 gradients with harsh color stops—like magical diamonds.
 
-<img src="http://i.imgur.com/bFpC1.png" width="300px" height="200px">
+<img src="./docs/images/example.png" width="300px" height="200px">
 
-You can find a bunch of examples on my [website](http://www.bookcasey.com/harsh)
+You can find a bunch of examples [here](https://bookcasey.github.io/harsh).
 
 ## Installation
 
@@ -58,11 +60,11 @@ Boolean. When passing one color, saturates, desaturates, lightens, and darkens b
 
 Sets maximum percent colors will be changed by `nuance`. `0` will result in no change.
 
-<img src="http://i.imgur.com/2I95W.png" width="300px" height="200px">
+<img src="./docs/images/example_nuance_0.png" width="300px" height="200px">
 
 `100` will result in a large change.
 
-<img src="http://i.imgur.com/2R2cB.png" width="300px" height="200px">
+<img src="./docs/images/example_nuance_100.png" width="300px" height="200px">
 
 ## Tips
 
@@ -79,7 +81,7 @@ To make this a full-page background, make sure to set the `width` and `height` o
       //background-repeat: no-repeat;
     }
 
-## [Examples](http://www.bookcasey.com/harsh)
+## [Examples](https://bookcasey.github.io/harsh)
 
     .random
       @include harsh()

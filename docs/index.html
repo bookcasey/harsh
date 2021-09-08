@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="harsh">
+    <head>
+        <title>Harsh - Compass Extension</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header></header>
+
+        <h2 id="harsh">Harsh</h2>
+
+        <h3 id="colorstop_gradients">Color-stop Gradients</h3>
+
+        <p><a href="http://compass-style.org/">Compass</a> extension for randomly
+            generated CSS3 gradients with harsh color stops--like magical diamonds.</p>
+
+        <ul>
+            <li>Install the <a href="https://rubygems.org/gems/harsh">Gem</a></li>
+
+            <li>Source on <a href="https://github.com/bookcasey/harsh">Github</a>
+            </li>
+
+            <li>Read the <a
+                    href="https://github.com/bookcasey/harsh#harsh">Docs</a></li>
+        </ul>
+        <hr />
+        <ul class="examples">
+            <li class="random"><code>@include harsh()</code></li>
+            <li class="background"><code>@include harsh(white, rgb(200,50,50), .95)</code></li>
+            <li class="bright"><code>@include harsh(random, white, .05)</code></li>
+            <li class="dull"><code>@include harsh($transparency: .95)</code></li>
+            <li class="specify-colors"><code>@include harsh(#FF0000 blue rgb(50,200,50)) </code></li>
+            <li class="horiz"><code>@include harsh($angle: top)</code></li>
+            <li class="deg"><code>@include harsh($angle: -32deg)</code></li>
+            <li class="nuance-lots"><code>@include harsh(salmon, $nuance-strength: 50)</code></li>
+        </ul>
+
+    </body>
+
+</html>
